@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+#wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 3% 10%;
+}
+.logo {
+  width: 98px;
+  height: 82px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 1 rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  min-width: 20rem;
+  justify-content: space-between;
+}
+
+nav li > a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #777c85;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+
+li:first-child a {
+  color: #4e5dc0;
+  font-weight: 600;
+  cursor: pointer;
+  padding-bottom: 4px;
+  border-bottom: 2px solid#4e5dc0;
+}
+
+li > a:hover {
+  color: #4e5dc0;
+  font-weight: 600;
+  cursor: pointer;
+  padding-bottom: 4px;
+  border-bottom: 2px solid#4e5dc0;
+}
+
+.project-btn {
+  width: 165px;
+  height: 54px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 24px;
+  color: #ffffff;
+  background: #4e5dc0;
+  border-radius: 5px;
+}
+
+.project-btn:hover {
+  color: black;
+}
+
+.team-codehelp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15%;
+  padding-top: 6%;
+}
+
+.hr {
+  left: 113px;
+  top: 326px;
+  width: 220px;
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.heading-1 {
+  left: 111px;
+  top: 261px;
+  font-family: "Roboto flex";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  font-stretch: 100;
+  padding-bottom: 2%;
+}
+
+.teampara {
+  padding-top: 10%;
+  width: 573px;
+  height: 272px;
+  left: 113px;
+  top: 368px;
+  right: 754px;
+  opacity: 50%;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.image1 {
+  padding-left: 3%;
+}
+
+.logo-founder {
+  position: absolute;
+  width: 500px;
+  height: 480px;
+  left: 117px;
+  top: 860px;
+  border-radius: 30px;
+  padding-left: 3%;
+}
+
+.heading-2 {
+  position: absolute;
+  width: 260px;
+  height: 45px;
+  left: 990px;
+  top: 872px;
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  color: #16171c;
+  font-stretch: 100;
+}
+
+.hr1 {
+  position: absolute;
+  width: 280px;
+  height: 0px;
+  left: 990px;
+  top: 937px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.teampara2 {
+  position: absolute;
+  width: 462px;
+  height: 306px;
+  left: 990px;
+  top: 979px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.footer {
+  display: grid;
+  position: absolute;
+  top: 90rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 40vh;
+  width: 78%;
+}
+
+.Footerlogo {
+  padding-bottom: 6%;
+}
+
+.privacyname {
+  width: 300px;
+  left: 90px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #4e5dc0;
+  padding-bottom: 4%;
+}
+
+.rights {
+  position: absolute;
+  width: 209px;
+  height: 64px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #999999;
+}
+
+.menu {
+  width: 69px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #999999;
+}
+
+.menu:hover {
+  color: #4e5dc0;
+}
+
+.fb {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.Pname {
+  position: absolute;
+  width: 61px;
+  height: 32px;
+  top: 60%;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #4e5dc0;
+  text-decoration: underline;
+}
+
+.mailId {
+  position: absolute;
+  width: 185px;
+  height: 32px;
+  top: 72%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #999999;
+}
